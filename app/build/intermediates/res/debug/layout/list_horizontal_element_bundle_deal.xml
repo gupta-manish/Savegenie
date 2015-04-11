@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+    android:background="#D0d0d0">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:background="#FFFFFF">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:text="Product Name"
+            android:gravity="center">
+
+
+            </TextView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productName">
+
+            <TextView
+                android:id="@+id/fixedquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Qty:quantity"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Price"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/list_horizontal_element_bundle_deal.xml -->

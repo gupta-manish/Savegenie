@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    >
+
+
+
+
+
+    <Button
+        android:id="@+id/activateButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/add_to_wishlist_selector"
+        android:text="Activate"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:layout_width="80dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/activeButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/custom_red_backround_button"
+        android:text="Active"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:layout_width="80dp"
+        android:layout_height="35dp"/>
+    
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/listName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/check"
+        android:paddingBottom="7dp"
+        android:paddingTop="6dp"
+        android:layout_toLeftOf="@id/activateButton"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:text="Item Name"
+        android:clickable="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+</RelativeLayout>

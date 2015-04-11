@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                >
+
+    <RelativeLayout
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:padding = "5dp"
+        android:background = "#D0D0D0"
+        android:layout_margin="10dp"
+        >
+
+
+        <TextView
+            android:id = "@+id/itemName"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "2dp"
+            android:text = "Item Name"
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id = "@+id/itemQuant"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below = "@id/itemName"
+            android:layout_marginTop = "2dp"
+            android:text = "Quantity: "
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id = "@+id/itemMRP"
+            android:layout_width = "wrap_content"
+            android:layout_toLeftOf="@id/itemQuant"
+            android:layout_height = "wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below = "@id/itemName"
+            android:layout_marginTop = "2dp"
+            android:text = "MRP:"
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/list_row_missing_items.xml -->

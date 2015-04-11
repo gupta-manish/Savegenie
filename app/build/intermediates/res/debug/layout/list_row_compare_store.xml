@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                android:layout_width = "fill_parent"
+                android:layout_height = "wrap_content"
+                android:paddingBottom = "5dp"
+                android:paddingLeft = "10dp"
+                android:paddingRight = "10dp"
+                android:paddingTop = "5dp">
+
+    <RelativeLayout
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:background="#d0d0d0"
+        android:padding = "5dp">
+
+        <ImageView
+            android:id = "@+id/storeIcon"
+            android:layout_width = "match_parent"
+            android:layout_height = "100dp"
+            android:layout_centerHorizontal = "true"
+            android:background="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:contentDescription = "TODO"
+            android:src = "@drawable/ic_launcher" />
+
+        <Button
+            android:id = "@+id/missingItems"
+            android:layout_width = "wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight = "true"
+            android:layout_below = "@id/storeIcon"
+            android:layout_marginTop = "2dp"
+            android:background="@drawable/white_background"
+            android:text = "Missing Items"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAppearance = "?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id = "@+id/alternateItems"
+            android:layout_width = "wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/white_background"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_alignParentRight = "true"
+            android:layout_below = "@id/missingItems"
+            android:layout_marginTop = "10dp"
+            android:text = "Alternate Items"
+            android:textAppearance = "?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id = "@+id/storePrice"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below = "@id/storeIcon"
+            android:layout_marginTop = "2dp"
+            android:text = "Price: "
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id = "@+id/deliveryCost"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below = "@id/storePrice"
+            android:layout_marginTop = "2dp"
+            android:text = "Delivery Cost: "
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id = "@+id/totalCost"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_below = "@id/deliveryCost"
+            android:layout_marginTop = "2dp"
+            android:text = "Total Cost: "
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id = "@+id/reviewBasket"
+            android:layout_width = "match_parent"
+            android:layout_height = "40dp"
+            android:layout_below = "@id/alternateItems"
+            android:layout_marginLeft = "15dip"
+            android:layout_marginRight = "15dip"
+            android:layout_marginTop = "10dp"
+            android:background = "@drawable/add_to_wishlist_selector"
+            android:text = "Review Your Basket"
+            android:textAppearance = "?android:attr/textAppearanceMedium"
+            android:textColor = "#FFFFFF" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/list_row_compare_store.xml -->

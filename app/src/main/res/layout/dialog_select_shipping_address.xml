@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:orientation = "vertical">
+
+    <ListView
+        android:id = "@+id/quickList"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"></ListView>
+
+
+    <RelativeLayout
+        android:id = "@+id/noProduct"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:visibility = "invisible">
+
+        <TextView
+            android:id = "@+id/productEmpty"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerInParent = "true"
+            android:layout_margin = "10dp"
+            android:gravity = "center"
+            android:text = "No Address present"
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <Button
+        android:id = "@+id/enterAddress"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentBottom = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_marginBottom = "10dp"
+        android:layout_marginRight = "10dp"
+        android:background = "@drawable/custom_circle_button"
+        android:padding = "10dp"
+        android:text = "Enter New Address"
+        android:textAppearance = "?android:attr/textAppearanceSmall"
+        android:textColor = "#FFFFFF" />
+
+    <RelativeLayout
+        android:id = "@+id/spinnerRelativeLayout"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:background = "#00A1F8">
+
+        <ProgressBar
+            android:id = "@+id/pbSpinner"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerInParent = "true" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    >
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/add_to_wishlist_selector"
+        android:text="Select"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:layout_width="80dp"
+        android:layout_height="35dp"/>
+
+    <Button
+        android:id="@+id/selectedButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_red_backround_button"
+        android:text="Selected"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:layout_width="80dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/selectedButton"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:text="Item Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/list_row_store_fragment.xml -->

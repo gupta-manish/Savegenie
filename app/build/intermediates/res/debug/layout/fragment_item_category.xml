@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ListView
+            android:id="@+id/quickList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonLayout"
+            android:divider="#00000000"
+            android:dividerHeight="0px"></ListView>
+
+        <RelativeLayout
+            android:id="@+id/spinnerRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00A1F8">
+
+            <ProgressBar
+                android:id="@+id/pbSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/noProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/productEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Sorry , No product present in this category"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/right_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#ffffff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70">
+
+            <RelativeLayout
+                android:id="@+id/filterText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#00A1F8"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:text="Product Filter"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"/>
+
+                <Button
+                    android:id="@+id/clearButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:background="#ffffff"
+                    android:text="Clear"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00A1F8"/>
+
+                <Button
+                    android:id="@+id/applyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:layout_toLeftOf="@id/clearButton"
+                    android:background="#ffffff"
+                    android:text="Apply"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00A1F8"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/filterText"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <RelativeLayout
+                    android:id="@+id/brandFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="50">
+
+                    <TextView
+                        android:id="@+id/brandFilterText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Brands"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"
+                        android:layout_below="@id/brandFilterText">
+
+                    </RelativeLayout>
+
+                    <ListView
+                        android:layout_below="@id/brandFilterText"
+                        android:id="@+id/brandFilterList"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></ListView>
+
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/subTypeFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="50">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentTop="true"
+                        android:background="#000000"
+                        ></RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sub-Types"
+                        android:id="@+id/subTypeText"
+                        android:layout_centerHorizontal="true"
+                        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"
+                        android:layout_below="@id/subTypeText">
+
+                    </RelativeLayout>
+
+                    <ListView
+                        android:layout_below="@id/subTypeText"
+                        android:id="@+id/subTypeFilterList"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></ListView>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30">
+
+            <RelativeLayout
+                android:id="@+id/sortFilterText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#00A1F8"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:padding="3dp"
+                    android:text="Sort"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"/>
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/sortFilterList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/sortFilterText"></ListView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/fragment_item_category.xml -->

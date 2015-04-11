@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent">
+
+    <RelativeLayout
+        android:id = "@+id/listRelativeLayout"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent">
+
+        <RelativeLayout
+            android:id = "@+id/buttonLayout"
+            android:layout_width = "match_parent"
+            android:layout_height = "48dp"
+            android:layout_alignParentBottom = "true"
+            android:layout_margin = "5dp"
+            android:background = "#00000000">
+
+            <Button
+                android:id = "@+id/couponButton"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_marginLeft = "5dp"
+                android:background = "@drawable/custom_circle_button"
+                android:padding = "10dp"
+                android:text = "Coupon Code"
+                android:textAppearance = "?android:attr/textAppearanceSmall"
+                android:textColor = "#FFFFFF" />
+
+
+            <Button
+                android:id = "@+id/nextButton"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignParentRight = "true"
+                android:layout_marginRight = "5dp"
+                android:background = "@drawable/custom_circle_button"
+                android:padding = "10dp"
+                android:text = "Next"
+                android:textAppearance = "?android:attr/textAppearanceSmall"
+                android:textColor = "#FFFFFF" />
+
+            <RelativeLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:layout_toLeftOf = "@id/nextButton"
+                android:layout_toRightOf = "@id/couponButton">
+
+                <TextView
+                    android:id = "@+id/storeName"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "24dp"
+                    android:gravity = "center"
+                    android:text = "Store Name"
+                    android:textAppearance = "?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id = "@+id/couponCodeMessage"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "24dp"
+                    android:layout_below = "@id/storeName"
+                    android:gravity = "center"
+                    android:text = "Coupon Code Message"
+                    android:textAppearance = "?android:attr/textAppearanceSmall"
+                    android:visibility = "invisible" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width = "wrap_content"
+            android:layout_height = "match_parent"
+            android:layout_above = "@id/buttonLayout">
+
+            <LinearLayout
+                android:layout_width = "wrap_content"
+                android:layout_height = "match_parent"
+                android:orientation = "vertical"
+                android:weightSum = "1">
+
+                <LinearLayout
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:orientation = "horizontal">
+
+                    <TextView
+                        android:layout_width = "330dp"
+                        android:layout_height = "wrap_content"
+                        android:background = "#CCCCCC"
+                        android:paddingBottom = "10dp"
+                        android:paddingLeft = "10dp"
+                        android:paddingTop = "10dp"
+                        android:text = "Product" />
+
+                    <TextView
+                        android:layout_width = "115dp"
+                        android:layout_height = "wrap_content"
+                        android:background = "#CCCCCC"
+                        android:gravity = "center"
+                        android:paddingBottom = "10dp"
+                        android:paddingLeft = "10dp"
+                        android:paddingTop = "10dp"
+                        android:text = "Quantity" />
+
+                    <TextView
+                        android:layout_width = "115dp"
+                        android:layout_height = "wrap_content"
+                        android:background = "#CCCCCC"
+                        android:gravity = "center"
+                        android:paddingBottom = "10dp"
+                        android:paddingLeft = "10dp"
+                        android:paddingTop = "10dp"
+                        android:text = "MRP" />
+
+                    <TextView
+                        android:layout_width = "115dp"
+                        android:layout_height = "wrap_content"
+                        android:background = "#CCCCCC"
+                        android:gravity = "center"
+                        android:paddingBottom = "10dp"
+                        android:paddingLeft = "10dp"
+                        android:paddingTop = "10dp"
+                        android:text = "Unit Price" />
+
+                    <TextView
+                        android:layout_width = "115dp"
+                        android:layout_height = "wrap_content"
+                        android:background = "#CCCCCC"
+                        android:gravity = "center"
+                        android:paddingBottom = "10dp"
+                        android:paddingLeft = "10dp"
+                        android:paddingTop = "10dp"
+                        android:text = "SubTotal" />
+
+                </LinearLayout>
+
+                <ListView
+                    android:id = "@+id/quickList"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "0dp"
+                    android:layout_weight = "1"></ListView>
+
+                <LinearLayout
+                    android:id = "@+id/totalLayout"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content"
+                    android:layout_alignParentBottom = "true"
+                    android:orientation = "horizontal">
+
+                    <LinearLayout
+                        android:layout_width = "100dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Price At MRP" />
+
+
+                        <TextView
+                            android:id = "@+id/priceAtMRP"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "100dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Store Price" />
+
+
+                        <TextView
+                            android:id = "@+id/storePrice"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "130dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Price After Deal" />
+
+
+                        <TextView
+                            android:id = "@+id/priceAfterDeal"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "100dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Deal Discount" />
+
+
+                        <TextView
+                            android:id = "@+id/dealDiscount"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "120dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Delivery Charges" />
+
+
+                        <TextView
+                            android:id = "@+id/deliveryCharges"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "140dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Additional Cashback" />
+
+
+                        <TextView
+                            android:id = "@+id/additionalCashback"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width = "100dp"
+                        android:layout_height = "wrap_content"
+                        android:orientation = "vertical">
+
+                        <TextView
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#CCCCCC"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp"
+                            android:text = "Net Price" />
+
+
+                        <TextView
+                            android:id = "@+id/netPrice"
+                            android:layout_width = "match_parent"
+                            android:layout_height = "wrap_content"
+                            android:background = "#e4e4e4"
+                            android:gravity = "center"
+                            android:paddingBottom = "10dp"
+                            android:paddingTop = "10dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id = "@+id/spinnerRelativeLayout1"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent">
+
+        <ProgressBar
+            android:id = "@+id/pbSpinner"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerInParent = "true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id = "@+id/noProduct"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:visibility = "invisible">
+
+        <TextView
+            android:id = "@+id/productEmpty"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerInParent = "true"
+            android:layout_margin = "10dp"
+            android:gravity = "center"
+            android:text = "No product present in this list"
+            android:textAppearance = "?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+</RelativeLayout>

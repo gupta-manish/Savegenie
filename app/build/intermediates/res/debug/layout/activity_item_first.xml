@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:id="@+id/myAccount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/my_account"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/myLists"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/list_icon"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/myStores"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/swap_store"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/myBasket"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/basket_icon"/>
+
+                <TextView
+                    android:id="@+id/numOfItems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10dp"/>
+
+                <ProgressBar
+                    android:id="@+id/countSpinner"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:paddingRight="2dp"
+                    android:visibility="invisible"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deals"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="DEALS"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/quickList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonLayout"
+            android:divider="#00000000"
+            android:dividerHeight="0px"></ListView>
+
+
+        <FrameLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonLayout"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/buttonLayout"
+            android:background="#000000"></RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinnerRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00A1F8"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/pbSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/productEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Sorry , No product present in this category"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id = "@+id/left_drawer"
+        android:layout_width = "300dp"
+        android:layout_height = "match_parent"
+        android:layout_gravity = "start"
+        android:background = "#FFFFFF"
+        android:choiceMode = "singleChoice"
+        android:divider = "@android:color/transparent"
+        android:dividerHeight = "0dp">
+
+        <RelativeLayout
+            android:id="@+id/user_id_layout"
+            android:layout_width = "fill_parent"
+            android:layout_height = "wrap_content"
+            android:background = "#00A1F8"
+            android:padding = "2dp">
+
+            <TextView
+                android:id = "@+id/left_drawer_username"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_centerInParent = "true"
+                android:text = "User Name"
+                android:textAppearance = "?android:attr/textAppearanceMedium"
+                android:textColor = "#ffffff" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/left_drawer_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"></RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bestSellingProducts"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/bspImage"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/bestseller"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/bspImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Best Selling Products"/>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"></RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/favorites"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/favImage"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/favourite"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/favImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Favorites"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"></RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deals_left"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/dealImage"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/deals2"/>
+
+                <TextView
+                    android:layout_toRightOf="@id/dealImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Deals"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"></RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/user_id_layout"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_above="@id/left_drawer_button_layout"
+            android:orientation = "horizontal"
+            android:weightSum = "100">
+
+            <ListView
+                android:id = "@+id/left_drawer_list"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "33" />
+
+            <ListView
+                android:id = "@+id/left_drawer_list_1"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "33" />
+
+            <ListView
+                android:id = "@+id/left_drawer_list_2"
+                android:layout_width = "0dp"
+                android:layout_height = "match_parent"
+                android:layout_weight = "33" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/right_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#ffffff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/categoryFilterText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="#00A1F8"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:text="Category Filter"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"/>
+
+                <Button
+                    android:id="@+id/clearButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:background="#ffffff"
+                    android:text="All"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#00A1F8"/>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/categoryFilterList"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/categoryFilterText"></ListView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/activity_item_first.xml -->

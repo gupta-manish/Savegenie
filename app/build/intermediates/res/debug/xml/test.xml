@@ -1,0 +1,894 @@
+<root>
+   <mc>
+      <name>Drinks</name>
+      <image>Drinks.png</image>
+      <pc>
+         <name>Soft Drinks</name>
+         <image>Soft_Drinks.png</image>
+         <pt>
+            <name>Fizzy Drinks</name>
+            <image>Fizzy_Drinks.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Tea and Coffee</name>
+         <image>Tea_Coffee.png</image>
+         <pt>
+            <name>Tea</name>
+            <image>Tea.png</image>
+         </pt>
+         <pt>
+            <name>Tea Bags</name>
+            <image>Tea_Bags.png</image>
+         </pt>
+         <pt>
+            <name>Instant Coffee</name>
+            <image>Instant_Coffee.png</image>
+         </pt>
+         <pt>
+            <name>Ground Coffee</name>
+            <image>Ground_Coffee.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Fruit Drinks and Juices</name>
+         <image>Fruit_Drinks_Juices.png</image>
+         <pt>
+            <name>Juices</name>
+            <image>Juices.png</image>
+         </pt>
+         <pt>
+            <name>Syrups and Squashes</name>
+            <image>Syrups_Squashes.png</image>
+         </pt>
+         <pt>
+            <name>Concentrates</name>
+            <image>Concentrates.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sports and Energy Drinks</name>
+         <image>Sports_Energy_Drinks.png</image>
+         <pt>
+            <name>Energy Drinks</name>
+            <image>Energy_Drinks.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Grocery and Staples</name>
+      <image>Grocery_Staples.png</image>
+      <pc>
+         <name>Salt and Sugar</name>
+         <image>Salt_Sugar.png</image>
+         <pt>
+            <name>Salt</name>
+            <image>Salt.png</image>
+         </pt>
+         <pt>
+            <name>Sugar Free</name>
+            <image>Sugar_Free.png</image>
+         </pt>
+         <pt>
+            <name>Sugar</name>
+            <image>Sugar.png</image>
+         </pt>
+         <pt>
+            <name>Jaggery</name>
+            <image>Jaggery.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Flours</name>
+         <image>Flours.png</image>
+         <pt>
+            <name>Wheat Atta</name>
+            <image>Wheat_Atta.png</image>
+         </pt>
+         <pt>
+            <name>Sooji and Rava</name>
+            <image>Sooji_Rava.png</image>
+         </pt>
+         <pt>
+            <name>Other Flour</name>
+            <image>Flours.png</image>
+         </pt>
+         <pt>
+            <name>Maida</name>
+            <image>Maida.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Oils and Ghee</name>
+         <image>Oils_Ghee.png</image>
+         <pt>
+            <name>Ghee</name>
+            <image>Ghee.png</image>
+         </pt>
+         <pt>
+            <name>Olive Oils</name>
+            <image>Olive_oils.png</image>
+         </pt>
+         <pt>
+            <name>Groundnut Oils</name>
+            <image>Groundnut_Oils.png</image>
+         </pt>
+         <pt>
+            <name>Sunflower Oils</name>
+            <image>Sunflower_Oils.png</image>
+         </pt>
+         <pt>
+            <name>Mustard Oils</name>
+            <image>Mustard_Oils.png</image>
+         </pt>
+         <pt>
+            <name>Other Oils</name>
+            <image>Other_Oils.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dals and Pulses</name>
+         <image>Dals_Pulses.png</image>
+         <pt>
+            <name>Rajma</name>
+            <image>Rajma.png</image>
+         </pt>
+         <pt>
+            <name>Other Beans</name>
+            <image>Other_Beans.png</image>
+         </pt>
+         <pt>
+            <name>Whole Dals</name>
+            <image>Whole_Dals.png</image>
+         </pt>
+         <pt>
+            <name>Chole</name>
+            <image>Chole.png</image>
+         </pt>
+         <pt>
+            <name>Split Dals</name>
+            <image>Split_Dals.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Rice</name>
+         <image>Rice.png</image>
+         <pt>
+            <name>Basmati Rice</name>
+            <image>Basmati_Rice.png</image>
+         </pt>
+         <pt>
+            <name>Other Rice</name>
+            <image>Other_Rice.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Spices and Masalas</name>
+         <image>Spices_Masalas.png</image>
+         <pt>
+            <name>Powdered Spices</name>
+            <image>Powdered_Spices.png</image>
+         </pt>
+         <pt>
+            <name>International Spices</name>
+            <image>International_Spices.png</image>
+         </pt>
+         <pt>
+            <name>Whole Spices</name>
+            <image>Whole_Spices.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dry Fruits</name>
+         <image>Dry_Fruits.png</image>
+         <pt>
+            <name>Plain Dry Fruits</name>
+            <image>Plain_Dry_Fruits.png</image>
+         </pt>
+         <pt>
+            <name>Processed Dry Fruits</name>
+            <image>Processed_Dry_Fruits.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Organic Staples</name>
+         <image>Organic_Staples.png</image>
+         <pt>
+            <name>Rice Flour and Sooji</name>
+            <image>Rice_Flour_Sooji.png</image>
+         </pt>
+         <pt>
+            <name>Organic Dals and Pulses</name>
+            <image>Organic_Dals_Pulses.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Whole Grains</name>
+         <image>Whole_Grains.png</image>
+         <pt>
+            <name>Whole Grains</name>
+            <image>Whole_Grains.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Snacks and Sweets</name>
+      <image>Snacks_Sweets.png</image>
+      <pc>
+         <name>Snacks</name>
+         <image>Snacks.png</image>
+         <pt>
+            <name>Popcorn</name>
+            <image>Popcorn.png</image>
+         </pt>
+         <pt>
+            <name>Biscuits</name>
+            <image>Biscuits.png</image>
+         </pt>
+         <pt>
+            <name>Namkeen</name>
+            <image>Namkeen.png</image>
+         </pt>
+         <pt>
+            <name>Chips and Wafers</name>
+            <image>Chips_Wafers.png</image>
+         </pt>
+         <pt>
+            <name>Papad</name>
+            <image>Papad.png</image>
+         </pt>
+         <pt>
+            <name>Nuts and Seeds</name>
+            <image>Nuts_Seeds.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sweets and Chocolates</name>
+         <image>Sweets_Chocolates.png</image>
+         <pt>
+            <name>Chocolates</name>
+            <image>Chocolates.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Mints and Gum</name>
+         <image>Mints_Gum.png</image>
+         <pt>
+            <name>Toffees</name>
+            <image>Toffees.png</image>
+         </pt>
+         <pt>
+            <name>Mint</name>
+            <image>mint.png</image>
+         </pt>
+         <pt>
+            <name>Gums and Freshners</name>
+            <image>Gums_Freshners.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Churn and Mukhwas</name>
+         <image>Churn_Mukhwas.png</image>
+         <pt>
+            <name>Mouth Freshners nplc3Mukhwasnplc4</name>
+            <image>Mouth_Freshners_nplc3Mukhwasnplc4.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Household</name>
+      <image>Household.png</image>
+      <pc>
+         <name>Laundry and Detergent</name>
+         <image>Laundry_Detergent.png</image>
+         <pt>
+            <name>Detergent Powder</name>
+            <image>Detergent_Powder.png</image>
+         </pt>
+         <pt>
+            <name>Detergent Bar</name>
+            <image>Detergent_Bar.png</image>
+         </pt>
+         <pt>
+            <name>Fabric Softener</name>
+            <image>Fabric_Softener.png</image>
+         </pt>
+         <pt>
+            <name>Detergent Liquid</name>
+            <image>Detergent_Liquid.png</image>
+         </pt>
+         <pt>
+            <name>Liquid Stiffener</name>
+            <image>Liquid_Stiffener.png</image>
+         </pt>
+         <pt>
+            <name>Bleach and Fabric Whitener</name>
+            <image>Bleach_Fabric_Whitener.png</image>
+         </pt>
+         <pt>
+            <name>Stain Remover</name>
+            <image>Stain_Remover.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Repellents and Fresheners</name>
+         <image>Repellents_Fresheners.png</image>
+         <pt>
+            <name>Home and Air Freshener</name>
+            <image>Home_Air_Freshener.png</image>
+         </pt>
+         <pt>
+            <name>Mosquito Repellent</name>
+            <image>Mosquito_Repellent.png</image>
+         </pt>
+         <pt>
+            <name>Other Insect Repellent</name>
+            <image>Other_Insect_Repellent.png</image>
+         </pt>
+         <pt>
+            <name>Rodent Control</name>
+            <image>Rodent_Control.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Shoe Care</name>
+         <image>Shoe_Care.png</image>
+         <pt>
+            <name>Shoe Polish</name>
+            <image>Shoe_Polish.png</image>
+         </pt>
+         <pt>
+            <name>Shoe Brush</name>
+            <image>Shoe_Brush.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Toilet Floor and Other Cleaners</name>
+         <image>Toilet_Floor_Other_Cleaners.png</image>
+         <pt>
+            <name>Floor cleaners</name>
+            <image>Floor_cleaners.png</image>
+         </pt>
+         <pt>
+            <name>Glass Cleaners</name>
+            <image>Glass_Cleaners.png</image>
+         </pt>
+         <pt>
+            <name>Toilet Cleaners</name>
+            <image>Toilet_Cleaners.png</image>
+         </pt>
+         <pt>
+            <name>Phenyles and Acids</name>
+            <image>Phenyles_Acids.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pooja Needs</name>
+         <image>Pooja_Needs.png</image>
+         <pt>
+            <name>Agarbatti</name>
+            <image>Agarbatti.png</image>
+         </pt>
+         <pt>
+            <name>Dhoop</name>
+            <image>Other_Pooja_needs.png</image>
+         </pt>
+         <pt>
+            <name>Other Pooja needs</name>
+            <image>Other_Pooja_needs.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Utensil Cleaners</name>
+         <image>Utensil_Cleaners.png</image>
+         <pt>
+            <name>Dishwash Liquids and Pastes</name>
+            <image>Dishwash_Liquids_Pastes.png</image>
+         </pt>
+         <pt>
+            <name>Utensil Scrub Pads</name>
+            <image>Utensil_Scrub_Pads.png</image>
+         </pt>
+         <pt>
+            <name>Dishwash Bars</name>
+            <image>Dishwash_Bars.png</image>
+         </pt>
+         <pt>
+            <name>Dishwash Powders</name>
+            <image>Dishwash_Powders.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Electricals</name>
+         <image>Electricals.png</image>
+         <pt>
+            <name>Batteries and Cells</name>
+            <image>Batteries_Cells.png</image>
+         </pt>
+         <pt>
+            <name>Cfls and Bulbs</name>
+            <image>Cfls_Bulbs.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Paper and Disposable</name>
+         <image>Paper_Disposable.png</image>
+         <pt>
+            <name>Aluminium foil and cling wrap</name>
+            <image>Aluminium_foil_cling_wrap.png</image>
+         </pt>
+         <pt>
+            <name>Disposable cutlery</name>
+            <image>Disposable_cutlery.png</image>
+         </pt>
+         <pt>
+            <name>Tissue Paper and Napkins</name>
+            <image>Tissue_Paper_Napkins.png</image>
+         </pt>
+         <pt>
+            <name>Kitchen Rolls</name>
+            <image>Kitchen_Rolls.png</image>
+         </pt>
+         <pt>
+            <name>Garbage Bags</name>
+            <image>Garbage_Bags.png</image>
+         </pt>
+         <pt>
+            <name>Toilet Paper</name>
+            <image>Toilet_Paper.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Cleaning Accessories</name>
+         <image>Cleaning_Accessories.png</image>
+         <pt>
+            <name>Brushes and Scrubbers</name>
+            <image>Brushes_Scrubbers.png</image>
+         </pt>
+         <pt>
+            <name>Mops</name>
+            <image>Mops.png</image>
+         </pt>
+         <pt>
+            <name>Brooms and Dust Pans</name>
+            <image>Brooms_Dust_Pans.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Personal Care</name>
+      <image>personal_care.png</image>
+      <pc>
+         <name>Bath and Body</name>
+         <image>Bath_Body.png</image>
+         <pt>
+            <name>Deodorant</name>
+            <image>Deodorant.png</image>
+         </pt>
+         <pt>
+            <name>Talcum Powder</name>
+            <image>Talcum_Powder.png</image>
+         </pt>
+         <pt>
+            <name>Bathing Soap</name>
+            <image>Bathing_Soap.png</image>
+         </pt>
+         <pt>
+            <name>Gulab jal</name>
+            <image>Gulab_jal.png</image>
+         </pt>
+         <pt>
+            <name>Handwash and Sanitizers</name>
+            <image>Handwash_Sanitizers.png</image>
+         </pt>
+         <pt>
+            <name>Body Wash</name>
+            <image>Body_Wash.png</image>
+         </pt>
+         <pt>
+            <name>Moisturiser</name>
+            <image>Moisturiser.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Women Needs</name>
+         <image>Women_Needs.png</image>
+         <pt>
+            <name>Hair Removal</name>
+            <image>Hair_Removal.png</image>
+         </pt>
+         <pt>
+            <name>Sanitary Care</name>
+            <image>Sanitary_Care.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Shaving Needs</name>
+         <image>Shaving_Needs.png</image>
+         <pt>
+            <name>After Shave</name>
+            <image>After_Shave.png</image>
+         </pt>
+         <pt>
+            <name>Shaving Cream</name>
+            <image>Shaving_Cream.png</image>
+         </pt>
+         <pt>
+            <name>Razor</name>
+            <image>Razor.png</image>
+         </pt>
+         <pt>
+            <name>Razor Blade</name>
+            <image>Razor_Blade.png</image>
+         </pt>
+         <pt>
+            <name>Shaving Brush</name>
+            <image>Shaving_Brush.png</image>
+         </pt>
+         <pt>
+            <name>Shaving Gel</name>
+            <image>Shaving_Gel.png</image>
+         </pt>
+         <pt>
+            <name>Shaving Foam</name>
+            <image>Shaving_Foam.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Hair Care</name>
+         <image>Hair_Care.png</image>
+         <pt>
+            <name>Shampoo</name>
+            <image>Shampoo.png</image>
+         </pt>
+         <pt>
+            <name>Hair Oil</name>
+            <image>Hair_Oil.png</image>
+         </pt>
+         <pt>
+            <name>Hair Conditioner</name>
+            <image>Hair_Conditioner.png</image>
+         </pt>
+         <pt>
+            <name>Hair Colour and Mehendi</name>
+            <image>Hair_Colour_Mehendi.png</image>
+         </pt>
+         <pt>
+            <name>Hair Gel and Cream</name>
+            <image>Hair_Gel_Cream.png</image>
+         </pt>
+         <pt>
+            <name>Hair Brush</name>
+            <image>Hair_Brush.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Face and Skin Care</name>
+         <image>Face_Skin_Care.png</image>
+         <pt>
+            <name>Face Wash and Scrub</name>
+            <image>Face_Wash_Scrub.png</image>
+         </pt>
+         <pt>
+            <name>Cleansing Agents</name>
+            <image>Cleansing_Agents.png</image>
+         </pt>
+         <pt>
+            <name>Face Pack</name>
+            <image>Face_Pack.png</image>
+         </pt>
+         <pt>
+            <name>Fairness Cream</name>
+            <image>Fairness_Cream.png</image>
+         </pt>
+         <pt>
+            <name>Sunscreen</name>
+            <image>Sunscreen.png</image>
+         </pt>
+         <pt>
+            <name>Cold Cream</name>
+            <image>Cold_Cream.png</image>
+         </pt>
+         <pt>
+            <name>Lip Balm</name>
+            <image>Lip_Balm.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dental Care</name>
+         <image>Dental_Care.png</image>
+         <pt>
+            <name>Toothpaste</name>
+            <image>Toothpaste.png</image>
+         </pt>
+         <pt>
+            <name>Mouthwash</name>
+            <image>Mouthwash.png</image>
+         </pt>
+         <pt>
+            <name>Toothbrush</name>
+            <image>Toothbrush.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Tins Jars and Cooking</name>
+      <image>Tins_Jars_Cooking.png</image>
+      <pc>
+         <name>Condiments</name>
+         <image>Condiments.png</image>
+         <pt>
+            <name>Vinegar</name>
+            <image>Vinegar.png</image>
+         </pt>
+         <pt>
+            <name>Pickles and Marinated Vegetables</name>
+            <image>Tins_Jars_Cooking.png</image>
+         </pt>
+         <pt>
+            <name>Honey</name>
+            <image>Honey.png</image>
+         </pt>
+         <pt>
+            <name>Food Color and Essence</name>
+            <image>Food_Color_Essence.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Spreads and Dressings</name>
+         <image>Spreads_Dressings.png</image>
+         <pt>
+            <name>Spreads</name>
+            <image>Spreads.png</image>
+         </pt>
+         <pt>
+            <name>Jams</name>
+            <image>Jams.png</image>
+         </pt>
+         <pt>
+            <name>Mayonnaise and Dressings</name>
+            <image>Mayonnaise_Dressings.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sauces</name>
+         <image>Sauces.png</image>
+         <pt>
+            <name>Other Sauces</name>
+            <image>Other_Sauces.png</image>
+         </pt>
+         <pt>
+            <name>Tomato Ketchup</name>
+            <image>Tomato_Ketchup.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Cooking Pastes and Powders</name>
+         <image>Cooking_Pastes_Powders.png</image>
+         <pt>
+            <name>Ginger and Garlic Paste</name>
+            <image>Ginger_Garlic_Paste.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Bread and Dairy</name>
+      <image>Bread_Dairy.png</image>
+      <pc>
+         <name>Dairy Products</name>
+         <image>Dairy_Products.png</image>
+         <pt>
+            <name>Butter and Spreads</name>
+            <image>Butter_Spreads.png</image>
+         </pt>
+         <pt>
+            <name>Cheese</name>
+            <image>Cheese.png</image>
+         </pt>
+         <pt>
+            <name>Curds and Buttermilk</name>
+            <image>Curds_Buttermilk.png</image>
+         </pt>
+         <pt>
+            <name>Milk</name>
+            <image>Milk.png</image>
+         </pt>
+         <pt>
+            <name>Paneer and Tofu</name>
+            <image>Paneer_Tofu.png</image>
+         </pt>
+         <pt>
+            <name>Condensed Milk</name>
+            <image>Condensed_Milk.png</image>
+         </pt>
+         <pt>
+            <name>Ice Creams and Desserts</name>
+            <image>Ice_Creams_Desserts.png</image>
+         </pt>
+         <pt>
+            <name>Milk Drinks</name>
+            <image>Milk_Drinks.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Bread and Bakery</name>
+         <image>Bread_Bakery.png</image>
+         <pt>
+            <name>Cakes</name>
+            <image>Cakes.png</image>
+         </pt>
+         <pt>
+            <name>Bread</name>
+            <image>Bread.png</image>
+         </pt>
+         <pt>
+            <name>Buns and Pavs</name>
+            <image>Buns_Pavs.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Baby</name>
+      <image>Baby.png</image>
+      <pc>
+         <name>Baby Foods</name>
+         <image>Baby_Foods.png</image>
+         <pt>
+            <name>Baby formula</name>
+            <image>Baby_formula.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Baby Care</name>
+         <image>Baby_Care.png</image>
+         <pt>
+            <name>Baby Soap</name>
+            <image>Baby_Soap.png</image>
+         </pt>
+         <pt>
+            <name>Diapers</name>
+            <image>Diapers.png</image>
+         </pt>
+         <pt>
+            <name>Baby Lotion</name>
+            <image>Baby_Lotion.png</image>
+         </pt>
+         <pt>
+            <name>Baby Oil</name>
+            <image>Baby_Oil.png</image>
+         </pt>
+         <pt>
+            <name>Baby Accessories</name>
+            <image>Baby_Accessories.png</image>
+         </pt>
+         <pt>
+            <name>Baby Shampoo</name>
+            <image>Baby_Shampoo.png</image>
+         </pt>
+         <pt>
+            <name>Baby powder</name>
+            <image>Baby_powder.png</image>
+         </pt>
+         <pt>
+            <name>Wipes</name>
+            <image>Wipes.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Cereals and Instant Meals</name>
+      <image>Cereals_Instant_Meals.png</image>
+      <pc>
+         <name>Pasta and Noodles</name>
+         <image>Pasta_Noodles.png</image>
+         <pt>
+            <name>Vermicelli</name>
+            <image>Vermicelli.png</image>
+         </pt>
+         <pt>
+            <name>Pasta</name>
+            <image>Pasta.png</image>
+         </pt>
+         <pt>
+            <name>Instant Noodles</name>
+            <image>Instant_Noodles.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Ready To Eat and Cook</name>
+         <image>Ready_To_Eat_Cook.png</image>
+         <pt>
+            <name>Sweets</name>
+            <image>Sweets.png</image>
+         </pt>
+         <pt>
+            <name>South Indian Dish</name>
+            <image>South_Indian_Dish.png</image>
+         </pt>
+         <pt>
+            <name>Indian Meals</name>
+            <image>Vegetarian_Indian_Meals.png</image>
+         </pt>
+         <pt>
+            <name>Packet Soup</name>
+            <image>Packet_Soup.png</image>
+         </pt>
+         <pt>
+            <name>Gujarati Dish</name>
+            <image>Gujarati_Dish.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Breakfast</name>
+         <image>Breakfast.png</image>
+         <pt>
+            <name>Porridge and Muesli</name>
+            <image>Porridge_Muesli.png</image>
+         </pt>
+         <pt>
+            <name>Breakfast Cereals</name>
+            <image>Breakfast_Cereals.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Home Baking</name>
+         <image>Home_Baking.png</image>
+         <pt>
+            <name>Home Baking</name>
+            <image>Home_Baking.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Health and Nutrition</name>
+         <image>Health_Nutrition.png</image>
+         <pt>
+            <name>Digestives</name>
+            <image>Digestives.png</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Health Care</name>
+      <image>Health_Care.png</image>
+      <pc>
+         <name>Vitamins and Supplements</name>
+         <image>Vitamins_Supplements.png</image>
+         <pt>
+            <name>Nutrition Drinks</name>
+            <image>Nutrition_Drinks.png</image>
+         </pt>
+         <pt>
+            <name>Chyawanprash</name>
+            <image>Chyawanprash.png</image>
+         </pt>
+         <pt>
+            <name>Soya Drinks</name>
+            <image>Soya_Drinks.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>First Aid</name>
+         <image>First_Aid.png</image>
+         <pt>
+            <name>Antiseptic Liquid</name>
+            <image>Antiseptic_Liquid.png</image>
+         </pt>
+         <pt>
+            <name>Antiseptic Cream</name>
+            <image>Antiseptic_Cream.png</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pain Relief</name>
+         <image>Pain_Relief.png</image>
+         <pt>
+            <name>Stomach Care</name>
+            <image>Stomach_Care.png</image>
+         </pt>
+         <pt>
+            <name>Ointments</name>
+            <image>Ointments.png</image>
+         </pt>
+      </pc>
+   </mc>
+</root><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/xml/test.xml -->

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent"
+                android:background = "@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical"
+        android:weightSum = "100">
+
+        <View
+            android:layout_width = "fill_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "25" />
+
+        <RelativeLayout
+            android:id = "@+id/middleRelativeLayout"
+            android:layout_width = "fill_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "50"
+            android:background = "#FFFFFF"
+            android:visibility = "invisible">
+
+
+            <RelativeLayout
+                android:id = "@+id/formRelativeLayout"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_centerVertical = "true"
+                android:layout_marginLeft = "55dp"
+                android:layout_marginRight = "55dp"
+                android:visibility = "invisible">
+
+                <EditText
+                    android:id = "@+id/newListName"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "wrap_content"
+                    android:hint = "New List Name" />
+
+                <LinearLayout
+                    android:layout_width = "100dp"
+                    android:layout_height = "wrap_content"
+                    android:layout_below = "@id/newListName"
+                    android:layout_centerHorizontal = "true"
+                    android:layout_marginTop = "30dp"
+                    android:orientation = "vertical">
+
+                    <Button
+                        android:id = "@+id/createListButton"
+                        android:layout_width = "match_parent"
+                        android:layout_height = "wrap_content"
+                        android:background = "@drawable/custom_circle_button"
+                        android:text = "Create"
+                        android:textColor = "#FFFFFF">
+
+                    </Button>
+
+                    <View
+                        android:layout_width = "match_parent"
+                        android:layout_height = "5dp"
+                        android:background = "@drawable/white_shadow_up" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id = "@+id/listRelativeLayout"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:layout_margin = "25dp"
+                android:visibility = "invisible">
+
+
+                <ListView
+                    android:id = "@+id/quickList"
+                    android:layout_width = "match_parent"
+                    android:layout_height = "match_parent"></ListView>
+
+                <TextView
+                    android:id = "@+id/tv3"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "wrap_content" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width = "fill_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "25" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:orientation = "vertical"
+        android:weightSum = "50">
+
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "25">
+
+            <View
+                android:layout_width = "match_parent"
+                android:layout_height = "5dp"
+                android:layout_centerVertical = "true"
+                android:background = "@drawable/shadow_down" />
+
+            <ImageButton
+                android:id = "@+id/selectListButton"
+                android:layout_width = "100dp"
+                android:layout_height = "100dp"
+                android:layout_centerInParent = "true"
+                android:background = "@drawable/select_list" />
+
+            <TextView
+                android:id = "@+id/tv1"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_above = "@id/selectListButton"
+                android:layout_centerHorizontal = "true"
+                android:layout_marginBottom = "10dp"
+                android:gravity = "center"
+                android:text = "Choose from existing list"
+                android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width = "fill_parent"
+            android:layout_height = "0dp"
+            android:layout_weight = "25">
+
+            <View
+                android:layout_width = "match_parent"
+                android:layout_height = "5dp"
+                android:layout_centerVertical = "true"
+                android:background = "@drawable/shadow_up" />
+
+
+            <ImageButton
+                android:id = "@+id/createNewList"
+                android:layout_width = "100dp"
+                android:layout_height = "100dp"
+                android:layout_centerInParent = "true"
+                android:background = "@drawable/creste_new_list" />
+
+            <TextView
+                android:id = "@+id/tv2"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_below = "@id/createNewList"
+                android:layout_centerHorizontal = "true"
+                android:layout_marginTop = "5dp"
+                android:gravity = "center"
+                android:text = "Create a new list"
+                android:textAppearance = "?android:attr/textAppearanceMedium" />
+
+            <RelativeLayout
+                android:id = "@+id/relativeLayout2"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_centerInParent = "true">
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id = "@+id/spinnerRelativeLayout"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:background = "#00A1F8">
+
+        <ProgressBar
+            android:id = "@+id/pbSpinner"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerInParent = "true" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/activity_select_list.xml -->

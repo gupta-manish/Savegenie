@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_menu_select" android:state_pressed="true"></item>
+    <item android:drawable="@android:drawable/ic_menu_edit"></item>
+
+</selector><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/drawable/custon_edit_button.xml -->

@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginBottom="5dp"
+    android:id = "@+id/list_item"
+    >
+
+    <Button
+        android:id="@+id/removeFromBasket"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dp"
+        android:text="x"
+        android:layout_centerVertical="true"
+        android:background="@drawable/custom_circle_red_background"
+        android:textSize="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/removeFromBasket"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Item Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/list_row_current_list_item.xml -->

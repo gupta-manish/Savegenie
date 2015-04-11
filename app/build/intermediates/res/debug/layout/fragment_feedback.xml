@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@drawable/custom_circle_button"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/submitButton"
+        android:id="@+id/feedback"
+        android:layout_margin="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/spinnerRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00A1F8">
+
+        <ProgressBar
+            android:id="@+id/pbSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/fragment_feedback.xml -->

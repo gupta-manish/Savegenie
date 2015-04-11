@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#FFFFFF"
+
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp">
+
+    <RelativeLayout
+        android:id="@+id/user_id_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00A1F8"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/left_drawer_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="User Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bestSellingProducts"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/bspImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/bestseller"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/bspImage"
+                android:text="Best Selling Products"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/favorites"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/favImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/favourite"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/favImage"
+                android:text="Favorites"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/deals_left"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/dealImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/deals2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/dealImage"
+                android:text="Deals"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/left_drawer_button_layout"
+        android:layout_below="@id/user_id_layout"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ListView
+            android:id="@+id/left_drawer_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+
+        <ListView
+            android:id="@+id/left_drawer_list_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+
+        <ListView
+            android:id="@+id/left_drawer_list_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <mc>
+      <name>Baby</name>
+      <image>baby</image>
+      <pc>
+         <name>Baby Care</name>
+         <image>baby_care</image>
+         <pt>
+            <pid>6</pid>
+            <name>Baby Accessories</name>
+            <image>baby_accessories</image>
+         </pt>
+         <pt>
+            <pid>8</pid>
+            <name>Baby Lotion</name>
+            <image>baby_lotion</image>
+         </pt>
+         <pt>
+            <pid>9</pid>
+            <name>Baby Oil</name>
+            <image>baby_oil</image>
+         </pt>
+         <pt>
+            <pid>10</pid>
+            <name>Baby Powder</name>
+            <image>baby_powder</image>
+         </pt>
+         <pt>
+            <pid>11</pid>
+            <name>Baby Shampoo</name>
+            <image>baby_shampoo</image>
+         </pt>
+         <pt>
+            <pid>12</pid>
+            <name>Baby Soap</name>
+            <image>baby_soap</image>
+         </pt>
+         <pt>
+            <pid>44</pid>
+            <name>Diapers</name>
+            <image>diapers</image>
+         </pt>
+         <pt>
+            <pid>170</pid>
+            <name>Wipes</name>
+            <image>wipes</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Baby Foods</name>
+         <image>baby_foods</image>
+         <pt>
+            <pid>7</pid>
+            <name>Baby Formula</name>
+            <image>baby_formula</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Bread and Dairy</name>
+      <image>bread_dairy</image>
+      <pc>
+         <name>Bread and Bakery</name>
+         <image>bread_bakery</image>
+         <pt>
+            <pid>20</pid>
+            <name>Bread</name>
+            <image>bread</image>
+         </pt>
+         <pt>
+            <pid>24</pid>
+            <name>Buns and Pavs</name>
+            <image>buns_pavs</image>
+         </pt>
+         <pt>
+            <pid>26</pid>
+            <name>Cakes</name>
+            <image>cakes</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dairy Products</name>
+         <image>dairy_products</image>
+         <pt>
+            <pid>25</pid>
+            <name>Butter and Spreads</name>
+            <image>butter_spreads</image>
+         </pt>
+         <pt>
+            <pid>28</pid>
+            <name>Cheese</name>
+            <image>cheese</image>
+         </pt>
+         <pt>
+            <pid>36</pid>
+            <name>Condensed Milk</name>
+            <image>condensed_milk</image>
+         </pt>
+         <pt>
+            <pid>38</pid>
+            <name>Curds and Buttermilk</name>
+            <image>curds_buttermilk</image>
+         </pt>
+         <pt>
+            <pid>76</pid>
+            <name>Ice Creams and Desserts</name>
+            <image>ice_creams_desserts</image>
+         </pt>
+         <pt>
+            <pid>89</pid>
+            <name>Milk</name>
+            <image>milk</image>
+         </pt>
+         <pt>
+            <pid>90</pid>
+            <name>Milk Drinks</name>
+            <image>milk_drinks</image>
+         </pt>
+         <pt>
+            <pid>113</pid>
+            <name>Paneer and Tofu</name>
+            <image>paneer_tofu</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Cereals and Instant Meals</name>
+      <image>cereals_instant_meals</image>
+      <pc>
+         <name>Breakfast</name>
+         <image>breakfast</image>
+         <pt>
+            <pid>21</pid>
+            <name>Breakfast Cereals</name>
+            <image>breakfast_cereals</image>
+         </pt>
+         <pt>
+            <pid>122</pid>
+            <name>Porrpidge and Muesli</name>
+            <image>porrpidge_muesli</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Health and Nutrition</name>
+         <image>health_nutrition</image>
+         <pt>
+            <pid>45</pid>
+            <name>Digestives</name>
+            <image>digestives</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Home Baking</name>
+         <image>home_baking</image>
+         <pt>
+            <pid>74</pid>
+            <name>Home Baking</name>
+            <image>home_baking</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pasta and Noodles</name>
+         <image>pasta_noodles</image>
+         <pt>
+            <pid>79</pid>
+            <name>Instant Noodles</name>
+            <image>instant_noodles</image>
+         </pt>
+         <pt>
+            <pid>115</pid>
+            <name>Pasta</name>
+            <image>pasta</image>
+         </pt>
+         <pt>
+            <pid>164</pid>
+            <name>Vermicelli</name>
+            <image>vermicelli</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Ready To Eat and Cook</name>
+         <image>ready_to_eat_cook</image>
+         <pt>
+            <pid>63</pid>
+            <name>Gujarati Dish</name>
+            <image>gujarati_dish</image>
+         </pt>
+         <pt>
+            <pid>77</pid>
+            <name>Indian Meals</name>
+            <image>indian_meals</image>
+         </pt>
+         <pt>
+            <pid>112</pid>
+            <name>Packet Soup</name>
+            <image>packet_soup</image>
+         </pt>
+         <pt>
+            <pid>141</pid>
+            <name>South Indian Dish</name>
+            <image>south_indian_dish</image>
+         </pt>
+         <pt>
+            <pid>151</pid>
+            <name>Sweets</name>
+            <image>sweets</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Drinks</name>
+      <image>drinks</image>
+      <pc>
+         <name>Fruit Drinks and Juices</name>
+         <image>fruit_drinks_juices</image>
+         <pt>
+            <pid>35</pid>
+            <name>Concentrates</name>
+            <image>concentrates</image>
+         </pt>
+         <pt>
+            <pid>83</pid>
+            <name>Juices</name>
+            <image>juices</image>
+         </pt>
+         <pt>
+            <pid>152</pid>
+            <name>Syrups and Squashes</name>
+            <image>syrups_squashes</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Other Drinks</name>
+         <image>other_drinks</image>
+         <pt>
+            <pid>105</pid>
+            <name>Other Drinks</name>
+            <image>other_drinks</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Soft Drinks</name>
+         <image>soft_drinks</image>
+         <pt>
+            <pid>55</pid>
+            <name>Fizzy Drinks</name>
+            <image>fizzy_drinks</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sports and Energy Drinks</name>
+         <image>sports_energy_drinks</image>
+         <pt>
+            <pid>50</pid>
+            <name>Energy Drinks</name>
+            <image>energy_drinks</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Tea and Coffee</name>
+         <image>tea_coffee</image>
+         <pt>
+            <pid>78</pid>
+            <name>Instant Coffee</name>
+            <image>instant_coffee</image>
+         </pt>
+         <pt>
+            <pid>154</pid>
+            <name>Tea</name>
+            <image>tea</image>
+         </pt>
+         <pt>
+            <pid>155</pid>
+            <name>Tea Bags</name>
+            <image>tea_bags</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Grocery and Staples</name>
+      <image>grocery_staples</image>
+      <pc>
+         <name>Dals and Pulses</name>
+         <image>dals_pulses</image>
+         <pt>
+            <pid>31</pid>
+            <name>Chole</name>
+            <image>chole</image>
+         </pt>
+         <pt>
+            <pid>104</pid>
+            <name>Other Beans</name>
+            <image>other_beans</image>
+         </pt>
+         <pt>
+            <pid>125</pid>
+            <name>Rajma</name>
+            <image>rajma</image>
+         </pt>
+         <pt>
+            <pid>143</pid>
+            <name>Split Dals</name>
+            <image>split_dals</image>
+         </pt>
+         <pt>
+            <pid>167</pid>
+            <name>Whole Dals</name>
+            <image>whole_dals</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dry Fruits</name>
+         <image>dry_fruits</image>
+         <pt>
+            <pid>120</pid>
+            <name>Plain Dry Fruits</name>
+            <image>plain_dry_fruits</image>
+         </pt>
+         <pt>
+            <pid>124</pid>
+            <name>Processed Dry Fruits</name>
+            <image>processed_dry_fruits</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Flours</name>
+         <image>flours</image>
+         <pt>
+            <pid>87</pid>
+            <name>Mapida</name>
+            <image>mapida</image>
+         </pt>
+         <pt>
+            <pid>106</pid>
+            <name>Other Flour</name>
+            <image>other_flours</image>
+         </pt>
+         <pt>
+            <pid>140</pid>
+            <name>Sooji and Rava</name>
+            <image>sooji_rava</image>
+         </pt>
+         <pt>
+            <pid>166</pid>
+            <name>Wheat Atta</name>
+            <image>wheat_atta</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Oils and Ghee</name>
+         <image>oils_ghee</image>
+         <pt>
+            <pid>59</pid>
+            <name>Ghee</name>
+            <image>ghee</image>
+         </pt>
+         <pt>
+            <pid>62</pid>
+            <name>Groundnut Oils</name>
+            <image>groundnut_oils</image>
+         </pt>
+         <pt>
+            <pid>97</pid>
+            <name>Mustard Oils</name>
+            <image>mustard_oils</image>
+         </pt>
+         <pt>
+            <pid>102</pid>
+            <name>Olive Oils</name>
+            <image>olive_oils</image>
+         </pt>
+         <pt>
+            <pid>108</pid>
+            <name>Other Oils</name>
+            <image>other_oils</image>
+         </pt>
+         <pt>
+            <pid>149</pid>
+            <name>Sunflower Oils</name>
+            <image>sunflower_oils</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Organic Staples</name>
+         <image>organic_staples</image>
+         <pt>
+            <pid>103</pid>
+            <name>Organic Dals and Pulses</name>
+            <image>organic_dals_pulses</image>
+         </pt>
+         <pt>
+            <pid>128</pid>
+            <name>Rice Flour and Sooji</name>
+            <image>rice_flour_sooji</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Rice</name>
+         <image>rice</image>
+         <pt>
+            <pid>14</pid>
+            <name>Basmati Rice</name>
+            <image>basmati_rice</image>
+         </pt>
+         <pt>
+            <pid>110</pid>
+            <name>Other Rice</name>
+            <image>other_rice</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Salt and Sugar</name>
+         <image>salt_sugar</image>
+         <pt>
+            <pid>81</pid>
+            <name>Jaggery</name>
+            <image>jaggery</image>
+         </pt>
+         <pt>
+            <pid>130</pid>
+            <name>Salt</name>
+            <image>salt</image>
+         </pt>
+         <pt>
+            <pid>147</pid>
+            <name>Sugar</name>
+            <image>sugar</image>
+         </pt>
+         <pt>
+            <pid>148</pid>
+            <name>Sugar Free</name>
+            <image>sugar_free</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Spices and Masalas</name>
+         <image>spices_masalas</image>
+         <pt>
+            <pid>80</pid>
+            <name>International Spices</name>
+            <image>international_spices</image>
+         </pt>
+         <pt>
+            <pid>123</pid>
+            <name>Powdered Spices</name>
+            <image>powdered_spices</image>
+         </pt>
+         <pt>
+            <pid>169</pid>
+            <name>Whole Spices</name>
+            <image>whole_spices</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Whole Grains</name>
+         <image>whole_grains</image>
+         <pt>
+            <pid>168</pid>
+            <name>Whole Grains</name>
+            <image>whole_grains</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Health Care</name>
+      <image>health_care</image>
+      <pc>
+         <name>First Apid</name>
+         <image>first_apid</image>
+         <pt>
+            <pid>4</pid>
+            <name>Antiseptic Cream</name>
+            <image>antiseptic_cream</image>
+         </pt>
+         <pt>
+            <pid>5</pid>
+            <name>Antiseptic Liqupid</name>
+            <image>antiseptic_liqupid</image>
+         </pt>
+         <pt>
+            <pid>13</pid>
+            <name>Bandage</name>
+            <image>bandage</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pain Relief</name>
+         <image>pain_relief</image>
+         <pt>
+            <pid>101</pid>
+            <name>Ointments</name>
+            <image>ointments</image>
+         </pt>
+         <pt>
+            <pid>146</pid>
+            <name>Stomach Care</name>
+            <image>stomach_care</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sexual Wellbeing</name>
+         <image>sexual_wellness</image>
+         <pt>
+            <pid>37</pid>
+            <name>Contraceptives</name>
+            <image>contraceptives</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Vitamins and Supplements</name>
+         <image>vitamins_supplements</image>
+         <pt>
+            <pid>32</pid>
+            <name>Chyawanprash</name>
+            <image>chyawanprash</image>
+         </pt>
+         <pt>
+            <pid>99</pid>
+            <name>Nutrition Drinks</name>
+            <image>nutrition_drinks</image>
+         </pt>
+         <pt>
+            <pid>142</pid>
+            <name>Soya Drinks</name>
+            <image>soya_drinks</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Household</name>
+      <image>household</image>
+      <pc>
+         <name>Cleaning Accessories</name>
+         <image>cleaning_accessories</image>
+         <pt>
+            <pid>22</pid>
+            <name>Brooms and Dust Pans</name>
+            <image>brooms_dust_pans</image>
+         </pt>
+         <pt>
+            <pid>23</pid>
+            <name>Brushes and Scrubbers</name>
+            <image>brushes_scrubbers</image>
+         </pt>
+         <pt>
+            <pid>93</pid>
+            <name>Mops</name>
+            <image>mops</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Electricals</name>
+         <image>electricals</image>
+         <pt>
+            <pid>16</pid>
+            <name>Batteries and Cells</name>
+            <image>batteries_cells</image>
+         </pt>
+         <pt>
+            <pid>27</pid>
+            <name>Cfls and Bulbs</name>
+            <image>cfls_bulbs</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Laundry and Detergent</name>
+         <image>laundry_detergent</image>
+         <pt>
+            <pid>18</pid>
+            <name>Bleach and Fabric Whitener</name>
+            <image>bleach_fabric_whitener</image>
+         </pt>
+         <pt>
+            <pid>40</pid>
+            <name>Detergent Bar</name>
+            <image>detergent_bar</image>
+         </pt>
+         <pt>
+            <pid>41</pid>
+            <name>Detergent Liqupid</name>
+            <image>detergent_liqupid</image>
+         </pt>
+         <pt>
+            <pid>42</pid>
+            <name>Detergent Powder</name>
+            <image>detergent_powder</image>
+         </pt>
+         <pt>
+            <pid>51</pid>
+            <name>Fabric Softener</name>
+            <image>fabric_softener</image>
+         </pt>
+         <pt>
+            <pid>86</pid>
+            <name>Liqupid Stiffener</name>
+            <image>liqupid_stiffener</image>
+         </pt>
+         <pt>
+            <pid>145</pid>
+            <name>Stain Remover</name>
+            <image>stain_remover</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Paper and Disposable</name>
+         <image>paper_disposable</image>
+         <pt>
+            <pid>3</pid>
+            <name>Aluminium Foil and Cling Wrap</name>
+            <image>aluminium_foil_cling_wrap</image>
+         </pt>
+         <pt>
+            <pid>49</pid>
+            <name>Disposable Cutlery</name>
+            <image>disposable_cutlery</image>
+         </pt>
+         <pt>
+            <pid>58</pid>
+            <name>Garbage Bags</name>
+            <image>garbage_bags</image>
+         </pt>
+         <pt>
+            <pid>84</pid>
+            <name>Kitchen Rolls</name>
+            <image>kitchen_rolls</image>
+         </pt>
+         <pt>
+            <pid>156</pid>
+            <name>Tissue Paper and Napkins</name>
+            <image>tissue_paper_napkins</image>
+         </pt>
+         <pt>
+            <pid>159</pid>
+            <name>Toilet Paper</name>
+            <image>toilet_paper</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pet Care</name>
+         <image>pet_care</image>
+         <pt>
+            <pid>116</pid>
+            <name>Pet Accessories</name>
+            <image>pet_care</image>
+         </pt>
+         <pt>
+            <pid>117</pid>
+            <name>Pet Food</name>
+            <image>dog_food</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Pooja Needs</name>
+         <image>pooja_needs</image>
+         <pt>
+            <pid>2</pid>
+            <name>Agarbatti</name>
+            <image>agarbatti</image>
+         </pt>
+         <pt>
+            <pid>43</pid>
+            <name>Dhoop</name>
+            <image>dhoop</image>
+         </pt>
+         <pt>
+            <pid>109</pid>
+            <name>Other Pooja Needs</name>
+            <image>other_pooja_needs</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Repellents and Fresheners</name>
+         <image>repellents_fresheners</image>
+         <pt>
+            <pid>73</pid>
+            <name>Home and Air Freshener</name>
+            <image>home_air_freshener</image>
+         </pt>
+         <pt>
+            <pid>94</pid>
+            <name>Mosquito Repellent</name>
+            <image>mosquito_repellent</image>
+         </pt>
+         <pt>
+            <pid>107</pid>
+            <name>Other Insect Repellent</name>
+            <image>other_insect_repellent</image>
+         </pt>
+         <pt>
+            <pid>129</pid>
+            <name>Rodent Control</name>
+            <image>rodent_control</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Shoe Care</name>
+         <image>shoe_care</image>
+         <pt>
+            <pid>138</pid>
+            <name>Shoe Brush</name>
+            <image>shoe_brush</image>
+         </pt>
+         <pt>
+            <pid>139</pid>
+            <name>Shoe Polish</name>
+            <image>shoe_polish</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Toilet Floor and Other Cleaners</name>
+         <image>toilet_floor_other_cleaners</image>
+         <pt>
+            <pid>56</pid>
+            <name>Floor Cleaners</name>
+            <image>floor_cleaners</image>
+         </pt>
+         <pt>
+            <pid>61</pid>
+            <name>Glass Cleaners</name>
+            <image>glass_cleaners</image>
+         </pt>
+         <pt>
+            <pid>118</pid>
+            <name>Phenyles and Acpids</name>
+            <image>phenyles_acpids</image>
+         </pt>
+         <pt>
+            <pid>158</pid>
+            <name>Toilet Cleaners</name>
+            <image>toilet_cleaners</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Utensil Cleaners</name>
+         <image>utensil_cleaners</image>
+         <pt>
+            <pid>46</pid>
+            <name>Dishwash Bars</name>
+            <image>dishwash_bars</image>
+         </pt>
+         <pt>
+            <pid>47</pid>
+            <name>Dishwash Liqupids and Pastes</name>
+            <image>dishwash_liqupids_pastes</image>
+         </pt>
+         <pt>
+            <pid>48</pid>
+            <name>Dishwash Powders</name>
+            <image>dishwash_powders</image>
+         </pt>
+         <pt>
+            <pid>163</pid>
+            <name>Utensil Scrub Pads</name>
+            <image>utensil_scrub_pads</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Personal Care</name>
+      <image>personal_care</image>
+      <pc>
+         <name>Bath and Body</name>
+         <image>bath_body</image>
+         <pt>
+            <pid>15</pid>
+            <name>Bathing Soap</name>
+            <image>bathing_soap</image>
+         </pt>
+         <pt>
+            <pid>19</pid>
+            <name>Body Wash</name>
+            <image>body_wash</image>
+         </pt>
+         <pt>
+            <pid>39</pid>
+            <name>Deodorant</name>
+            <image>deodorant</image>
+         </pt>
+         <pt>
+            <pid>64</pid>
+            <name>Gulab Jal</name>
+            <image>gulab_jal</image>
+         </pt>
+         <pt>
+            <pid>72</pid>
+            <name>Handwash and Sanitizers</name>
+            <image>handwash_sanitizers</image>
+         </pt>
+         <pt>
+            <pid>85</pid>
+            <name>Lip Balm</name>
+            <image>lip_balm</image>
+         </pt>
+         <pt>
+            <pid>92</pid>
+            <name>Moisturiser</name>
+            <image>moisturiser</image>
+         </pt>
+         <pt>
+            <pid>153</pid>
+            <name>Talcum Powder</name>
+            <image>talcum_powder</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Dental Care</name>
+         <image>dental_care</image>
+         <pt>
+            <pid>96</pid>
+            <name>Mouthwash</name>
+            <image>mouthwash</image>
+         </pt>
+         <pt>
+            <pid>161</pid>
+            <name>Toothbrush</name>
+            <image>toothbrush</image>
+         </pt>
+         <pt>
+            <pid>162</pid>
+            <name>Toothpaste</name>
+            <image>toothpaste</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Face and Skin Care</name>
+         <image>face_skin_care</image>
+         <pt>
+            <pid>33</pid>
+            <name>Cleansing Agents</name>
+            <image>cleansing_agents</image>
+         </pt>
+         <pt>
+            <pid>34</pid>
+            <name>Cold Cream</name>
+            <image>cold_cream</image>
+         </pt>
+         <pt>
+            <pid>52</pid>
+            <name>Face Pack</name>
+            <image>face_pack</image>
+         </pt>
+         <pt>
+            <pid>53</pid>
+            <name>Face Wash and Scrub</name>
+            <image>face_wash_scrub</image>
+         </pt>
+         <pt>
+            <pid>54</pid>
+            <name>Fairness Cream</name>
+            <image>fairness_cream</image>
+         </pt>
+         <pt>
+            <pid>150</pid>
+            <name>Sunscreen</name>
+            <image>sunscreen</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Hair Care</name>
+         <image>hair_care</image>
+         <pt>
+            <pid>66</pid>
+            <name>Hair Brush</name>
+            <image>hair_brush</image>
+         </pt>
+         <pt>
+            <pid>67</pid>
+            <name>Hair Colour and Mehendi</name>
+            <image>hair_colour_mehendi</image>
+         </pt>
+         <pt>
+            <pid>68</pid>
+            <name>Hair Conditioner</name>
+            <image>hair_conditioner</image>
+         </pt>
+         <pt>
+            <pid>69</pid>
+            <name>Hair Gel and Cream</name>
+            <image>hair_gel_cream</image>
+         </pt>
+         <pt>
+            <pid>70</pid>
+            <name>Hair Oil</name>
+            <image>hair_oil</image>
+         </pt>
+         <pt>
+            <pid>133</pid>
+            <name>Shampoo</name>
+            <image>shampoo</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Shaving Needs</name>
+         <image>shaving_needs</image>
+         <pt>
+            <pid>1</pid>
+            <name>After Shave</name>
+            <image>after_shave</image>
+         </pt>
+         <pt>
+            <pid>126</pid>
+            <name>Razor</name>
+            <image>razor</image>
+         </pt>
+         <pt>
+            <pid>127</pid>
+            <name>Razor Blade</name>
+            <image>razor_blade</image>
+         </pt>
+         <pt>
+            <pid>134</pid>
+            <name>Shaving Brush</name>
+            <image>shaving_brush</image>
+         </pt>
+         <pt>
+            <pid>135</pid>
+            <name>Shaving Cream</name>
+            <image>shaving_cream</image>
+         </pt>
+         <pt>
+            <pid>136</pid>
+            <name>Shaving Foam</name>
+            <image>shaving_foam</image>
+         </pt>
+         <pt>
+            <pid>137</pid>
+            <name>Shaving Gel</name>
+            <image>shaving_gel</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Women Needs</name>
+         <image>women_needs</image>
+         <pt>
+            <pid>71</pid>
+            <name>Hair Removal</name>
+            <image>hair_removal</image>
+         </pt>
+         <pt>
+            <pid>131</pid>
+            <name>Sanitary Care</name>
+            <image>sanitary_care</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Snacks and Sweets</name>
+      <image>snacks_sweets</image>
+      <pc>
+         <name>Churn and Mukhwas</name>
+         <image>churn_mukhwas</image>
+         <pt>
+            <pid>95</pid>
+            <name>Mouth Freshners nplc3Mukhwasnplc4</name>
+            <image>mouth_freshners_nplc3mukhwasnplc4</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Mints and Gum</name>
+         <image>mints_gum</image>
+         <pt>
+            <pid>65</pid>
+            <name>Gums and Freshners</name>
+            <image>gums_freshners</image>
+         </pt>
+         <pt>
+            <pid>91</pid>
+            <name>Mint</name>
+            <image>mint</image>
+         </pt>
+         <pt>
+            <pid>157</pid>
+            <name>Toffees</name>
+            <image>toffees</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Snacks</name>
+         <image>snacks</image>
+         <pt>
+            <pid>17</pid>
+            <name>Biscuits</name>
+            <image>biscuits</image>
+         </pt>
+         <pt>
+            <pid>29</pid>
+            <name>Chips and Wafers</name>
+            <image>chips_wafers</image>
+         </pt>
+         <pt>
+            <pid>98</pid>
+            <name>Namkeen</name>
+            <image>namkeen</image>
+         </pt>
+         <pt>
+            <pid>100</pid>
+            <name>Nuts and Seeds</name>
+            <image>nuts_seeds</image>
+         </pt>
+         <pt>
+            <pid>114</pid>
+            <name>Papad</name>
+            <image>papad</image>
+         </pt>
+         <pt>
+            <pid>121</pid>
+            <name>Popcorn</name>
+            <image>popcorn</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sweets and Chocolates</name>
+         <image>sweets_chocolates</image>
+         <pt>
+            <pid>30</pid>
+            <name>Chocolates</name>
+            <image>chocolates</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Stationery</name>
+      <image>stationery</image>
+      <pc>
+         <name>Accessories</name>
+         <image>accessories</image>
+         <pt>
+            <pid>132</pid>
+            <name>Scissors Glue and Tape</name>
+            <image>scissors_glue_tape</image>
+         </pt>
+      </pc>
+   </mc>
+   <mc>
+      <name>Tins Jars and Cooking</name>
+      <image>tins_jars_cooking</image>
+      <pc>
+         <name>Condiments</name>
+         <image>condiments</image>
+         <pt>
+            <pid>57</pid>
+            <name>Food Color and Essence</name>
+            <image>food_color_essence</image>
+         </pt>
+         <pt>
+            <pid>75</pid>
+            <name>Honey</name>
+            <image>honey</image>
+         </pt>
+         <pt>
+            <pid>119</pid>
+            <name>Pickles and Marinated Vegetables</name>
+            <image>pickles_marinated_vegetables</image>
+         </pt>
+         <pt>
+            <pid>165</pid>
+            <name>Vinegar</name>
+            <image>vinegar</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Cooking Pastes and Powders</name>
+         <image>cooking_pastes_powders</image>
+         <pt>
+            <pid>60</pid>
+            <name>Ginger and Garlic Paste</name>
+            <image>ginger_garlic_paste</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Sauces</name>
+         <image>sauces</image>
+         <pt>
+            <pid>111</pid>
+            <name>Other Sauces</name>
+            <image>other_sauces</image>
+         </pt>
+         <pt>
+            <pid>160</pid>
+            <name>Tomato Ketchup</name>
+            <image>tomato_ketchup</image>
+         </pt>
+      </pc>
+      <pc>
+         <name>Spreads and Dressings</name>
+         <image>spreads_dressings</image>
+         <pt>
+            <pid>82</pid>
+            <name>Jams</name>
+            <image>jams</image>
+         </pt>
+         <pt>
+            <pid>88</pid>
+            <name>Mayonnaise and Dressings</name>
+            <image>mayonnaise_dressings</image>
+         </pt>
+         <pt>
+            <pid>144</pid>
+            <name>Spreads</name>
+            <image>spreads</image>
+         </pt>
+      </pc>
+   </mc>
+</root>

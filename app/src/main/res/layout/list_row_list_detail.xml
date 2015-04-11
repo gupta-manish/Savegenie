@@ -1,0 +1,91 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="5dp"
+    android:id = "@+id/list_item"
+    >
+
+    <Button
+        android:id = "@+id/addToBasket"
+        android:layout_width = "120dp"
+        android:layout_height = "40dp"
+        android:layout_below = "@id/itemAvgPrice"
+        android:layout_marginBottom = "5dp"
+        android:layout_marginLeft = "15dip"
+        android:layout_marginRight = "15dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop = "10dp"
+        android:background = "@drawable/add_to_wishlist_selector"
+        android:text = "Add to List"
+        android:textAppearance = "?android:attr/textAppearanceSmall"
+        android:textColor = "#FFFFFF" />
+
+    <RelativeLayout
+        android:id = "@+id/quantityLayout"
+        android:layout_width = "120dp"
+        android:layout_height = "40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below = "@id/itemAvgPrice"
+        android:layout_marginBottom = "5dp"
+        android:visibility="invisible"
+        android:layout_marginLeft = "15dip"
+        android:layout_marginRight = "15dip"
+        android:layout_marginTop = "10dp">
+
+        <Button
+            android:id = "@+id/incQuantity"
+            android:layout_width = "40dp"
+            android:layout_height = "match_parent"
+            android:layout_alignParentLeft = "true"
+            android:background = "@drawable/inc_quantity"
+            android:text = "+"
+            android:textAppearance = "?android:attr/textAppearanceLarge"
+            android:textColor = "#00A1F8"></Button>
+
+        <Button
+            android:id = "@+id/decQuantity"
+            android:layout_width = "40dp"
+            android:layout_height = "match_parent"
+            android:layout_alignParentRight = "true"
+            android:background = "@drawable/dec_quantity"
+            android:text = "-"
+            android:textAppearance = "?android:attr/textAppearanceLarge"
+            android:textColor = "#00A1F8"></Button>
+
+        <RelativeLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_toLeftOf = "@id/decQuantity"
+            android:layout_toRightOf = "@id/incQuantity"
+            android:background = "#FFFFFF">
+
+            <TextView
+                android:id = "@+id/quantity"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_centerInParent = "true"
+                android:text = "0"
+                android:textAppearance = "?android:attr/textAppearanceLarge"
+                android:textColor = "#00A1F8" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/addToBasket"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:text="Item Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+</RelativeLayout>

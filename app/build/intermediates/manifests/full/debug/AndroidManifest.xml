@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.savegenie.savegenie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/savegenie_logo_2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="in.savegenie.savegenie.activities.Start"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.START_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.LoginActivity"
+            android:label="Sign In"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.LOGIN_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.ItemActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.ITEM_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.NoInternetConnectionActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.NO_INTERNET_CONNECTION_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.PickDelActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.PICK_DEL_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ItemActivity" />
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.OrderDetailActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.ORDER_DETAIL_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.PickDelActivity" />
+        </activity>
+        <activity
+            android:name="in.savegenie.savegenie.activities.CompleteOrderActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="in.savegenie.savegenie.COMPLETE_ORDER_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.OrderDetailActivity" />
+        </activity>
+    </application>
+
+</manifest>

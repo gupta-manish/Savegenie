@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#DDDDDD"
+              android:paddingBottom="5dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="5dp">
+
+
+    <RelativeLayout
+        android:id="@+id/innerRowRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/itemIcon"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/itemIcon"
+            android:text="Item Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/priceString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/itemIcon"
+            android:text="Price:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/itemMRP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/priceString"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemName"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/itemMRP"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/itemAvgPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemMRP"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/itemIcon"
+            android:text="Average Price:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/dealButton"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_above="@id/addToBasket"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custon_deal_button"
+            android:text="DEAL"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/addToBasket"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/itemAvgPrice"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/dealButton"
+            android:background="@drawable/add_to_wishlist_selector"
+            android:text="Add to List"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#00A1F8"/>
+
+        <RelativeLayout
+            android:id="@+id/quantityLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/itemAvgPrice"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/dealButton"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/incQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/inc_quantity"
+                android:text="+"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#00A1F8">
+            </Button>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#00A1F8"/>
+
+            <Button
+                android:id="@+id/decQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/dec_quantity"
+                android:text="-"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#00A1F8">
+            </Button>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout-land/list_row_item.xml -->

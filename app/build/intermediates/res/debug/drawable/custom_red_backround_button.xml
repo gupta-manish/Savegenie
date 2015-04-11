@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle" android:padding="1dip">
+    <solid android:color="#FF0000"/>
+    <stroke android:width="3dip" android:color="#00A1F8" />
+
+    <corners
+        android:bottomRightRadius="5dp"
+        android:bottomLeftRadius="5dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="5dp"/>
+</shape><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/drawable/custom_red_backround_button.xml -->

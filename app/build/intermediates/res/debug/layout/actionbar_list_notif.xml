@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:layout_width = "match_parent"
+              android:layout_height = "wrap_content"
+              android:layout_gravity = "center"
+              android:orientation = "vertical">
+
+    <ImageView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:background = "@drawable/sgenie_logo" />
+</LinearLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/actionbar_list_notif.xml -->

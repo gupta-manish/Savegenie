@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+	package
+		ADDED from AndroidManifest.xml:2:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+application
+ADDED from AndroidManifest.xml:8:5
+MERGED from com.android.support:appcompat-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:10:18
+	android:allowBackup
+		ADDED from AndroidManifest.xml:8:18
+	android:icon
+		ADDED from AndroidManifest.xml:9:18
+	android:theme
+		ADDED from AndroidManifest.xml:11:18
+activity#in.savegenie.savegenie.activities.Start
+ADDED from AndroidManifest.xml:13:9
+	android:label
+		ADDED from AndroidManifest.xml:15:13
+	android:theme
+		ADDED from AndroidManifest.xml:16:13
+	android:name
+		ADDED from AndroidManifest.xml:14:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:17:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:18:17
+	android:name
+		ADDED from AndroidManifest.xml:18:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:17
+	android:name
+		ADDED from AndroidManifest.xml:20:27
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.START_ACTIVITY
+ADDED from AndroidManifest.xml:22:13
+action#in.savegenie.savegenie.START_ACTIVITY
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:25:17
+	android:name
+		ADDED from AndroidManifest.xml:25:27
+activity#in.savegenie.savegenie.activities.LoginActivity
+ADDED from AndroidManifest.xml:29:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:13
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.LOGIN_ACTIVITY
+ADDED from AndroidManifest.xml:33:13
+action#in.savegenie.savegenie.LOGIN_ACTIVITY
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+activity#in.savegenie.savegenie.activities.ItemActivity
+ADDED from AndroidManifest.xml:39:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.ITEM_ACTIVITY
+ADDED from AndroidManifest.xml:42:13
+action#in.savegenie.savegenie.ITEM_ACTIVITY
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+activity#in.savegenie.savegenie.activities.NoInternetConnectionActivity
+ADDED from AndroidManifest.xml:48:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:49:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.NO_INTERNET_CONNECTION_ACTIVITY
+ADDED from AndroidManifest.xml:51:13
+action#in.savegenie.savegenie.NO_INTERNET_CONNECTION_ACTIVITY
+ADDED from AndroidManifest.xml:52:17
+	android:name
+		ADDED from AndroidManifest.xml:52:25
+activity#in.savegenie.savegenie.activities.PickDelActivity
+ADDED from AndroidManifest.xml:57:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.PICK_DEL_ACTIVITY
+ADDED from AndroidManifest.xml:60:13
+action#in.savegenie.savegenie.PICK_DEL_ACTIVITY
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:25
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:68:17
+	android:value
+		ADDED from AndroidManifest.xml:69:17
+activity#in.savegenie.savegenie.activities.OrderDetailActivity
+ADDED from AndroidManifest.xml:71:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.ORDER_DETAIL_ACTIVITY
+ADDED from AndroidManifest.xml:74:13
+action#in.savegenie.savegenie.ORDER_DETAIL_ACTIVITY
+ADDED from AndroidManifest.xml:75:17
+	android:name
+		ADDED from AndroidManifest.xml:75:25
+activity#in.savegenie.savegenie.activities.CompleteOrderActivity
+ADDED from AndroidManifest.xml:85:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+intent-filter#android.intent.category.DEFAULT+in.savegenie.savegenie.COMPLETE_ORDER_ACTIVITY
+ADDED from AndroidManifest.xml:88:13
+action#in.savegenie.savegenie.COMPLETE_ORDER_ACTIVITY
+ADDED from AndroidManifest.xml:89:17
+	android:name
+		ADDED from AndroidManifest.xml:89:25
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

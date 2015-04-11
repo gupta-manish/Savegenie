@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:id="@+id/listRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:id="@+id/myAccount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/my_account"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/myLists"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/list_icon"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/myStores"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/swap_store"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/myBasket"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/basket_icon"/>
+
+                <TextView
+                    android:id="@+id/numOfItems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:paddingRight="2dp"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10dp"/>
+
+                <ProgressBar
+                    android:id="@+id/countSpinner"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="13dp"
+                    android:paddingRight="2dp"
+                    android:visibility="invisible"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deals"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="7dp"
+                    android:src="@drawable/deals2"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/mainContentFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonLayout"/>
+
+
+        <FrameLayout
+            android:id="@+id/dialogFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonLayout"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+
+        <RelativeLayout
+            android:layout_above="@id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="#FFFFFF"
+            android:visibility="invisible">
+
+
+
+            <Button
+                android:id="@+id/searchButton"
+                android:background="@drawable/custom_button"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:text="Search"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:hint="Enter Search Here"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/searchButton"/>
+
+            <RelativeLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"></RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <fragment android:name="in.savegenie.savegenie.fragments.LeftDrawerFragment"
+              android:id="@+id/left_drawer"
+              android:layout_gravity="start"
+              android:layout_width="300dp"
+              android:layout_height="match_parent"
+              android:choiceMode="singleChoice"
+              tools:layout="@layout/fragment_left_drawer"/>
+
+
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/manish/Dev/Android_Workspace/Savegenie/app/src/main/res/layout/activity_item.xml -->
