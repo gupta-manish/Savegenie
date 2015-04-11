@@ -11,9 +11,12 @@ public class ShippingAddress implements Parcelable
     public String area;
     public String city;
     public String mobileno;
+    public String landmark;
+    public String society_name;
 
 
-    public ShippingAddress(String id, String name,String address, String area, String city, String mobileno)
+    public ShippingAddress(String id, String name,String address, String area, String city, String mobileno,String landmark,
+            String society_name)
     {
         super();
         this.id = id;
@@ -22,6 +25,8 @@ public class ShippingAddress implements Parcelable
         this.area = area;
         this.city = city;
         this.mobileno = mobileno;
+        this.landmark = landmark;
+        this.society_name = society_name;
     }
 
     private ShippingAddress(Parcel in) {
@@ -32,6 +37,8 @@ public class ShippingAddress implements Parcelable
         area = in.readString();
         city = in.readString();
         mobileno = in.readString();
+        landmark = in.readString();
+        society_name = in.readString();
     }
     @Override
     public int describeContents() {
@@ -48,6 +55,8 @@ public class ShippingAddress implements Parcelable
         dest.writeString(area);
         dest.writeString(city);
         dest.writeString(mobileno);
+        dest.writeString(landmark);
+        dest.writeString(society_name);
     }
 
     public static final Parcelable.Creator<ShippingAddress> CREATOR = new Parcelable.Creator<ShippingAddress>() {
