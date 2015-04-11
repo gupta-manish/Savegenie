@@ -411,7 +411,7 @@ public class PickDelActivity extends Activity implements SelectAddressDialogFrag
     @Override
     public void onAddressClick(ShippingAddress address)
     {
-
+        setAddress(address);
     }
 
     @Override
