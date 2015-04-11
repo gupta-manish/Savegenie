@@ -43,14 +43,16 @@ public class GetShippingAddressListAsyncTask extends BaseAsyncTask<ShippingAddre
 
             if (str.equals("shippingaddress"))
             {
-                String id=null,name=null,address=null,area=null,city=null,mobileno=null;
+                String id=null,name=null,address=null,area=null,city=null,mobileno=null,landmark = null,society_name = null;
                 id = parser.getAttributeValue(null,"id");
                 name = parser.getAttributeValue(null,"name");
                 address = parser.getAttributeValue(null,"address");
                 area = parser.getAttributeValue(null,"area");
                 city = parser.getAttributeValue(null,"city");
+                landmark = parser.getAttributeValue(null,"landmark");
+                society_name = parser.getAttributeValue(null,"society_name");
                 mobileno = parser.getAttributeValue(null,"mobileno");
-                addressList.add(new ShippingAddress(id,name,address,area,city,mobileno));
+                addressList.add(new ShippingAddress(id,name,address,area,city,mobileno,landmark,society_name));
                 parser.nextTag();
             }
         }
